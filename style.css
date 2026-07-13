@@ -142,7 +142,7 @@
   @media (min-width:600px){.corner{width:230px; height:230px;}}
   .inner-content{position:relative; z-index:2; text-align:center;}
   .blessing{font-size:12.5px; letter-spacing:.18em; text-transform:uppercase; line-height:1.8; margin-bottom:18px;}
-  .heart-div{font-size: 60px;color: #C99AA3;margin: 20px 0;text-shadow: 0 6px 15px rgba(201,154,163,.35);animation: heartbeat 2s ease-in-out infinite;}
+  .heart-div{font-size: 40px;color: #C99AA3;margin: 10px 0;text-shadow: 0 6px 15px rgba(201,154,163,.35);animation: heartbeat 2s ease-in-out infinite;}
   .names{font-family:'Cormorant Garamond', serif; font-weight:500; font-size:clamp(48px,11vw,80px); color:var(--navy); line-height:1.0;}
   .amp-script{font-family:'Alex Brush', cursive; font-size:clamp(30px,6vw,44px); color:var(--blue); display:block; margin:4px 0;}
   .nos-casamos{font-size:13px; letter-spacing:.32em; text-transform:uppercase; color:var(--olive); margin:18px 0 14px;}
