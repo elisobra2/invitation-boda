@@ -142,7 +142,28 @@
   @media (min-width:600px){.corner{width:230px; height:230px;}}
   .inner-content{position:relative; z-index:2; text-align:center;}
   .blessing{font-size:12.5px; letter-spacing:.18em; text-transform:uppercase; line-height:1.8; margin-bottom:18px;}
-  .heart-div{color:var(--olive); font-size:40px; margin:10px 0;}
+  
+.heart-div{
+    color: var(--olive);
+    font-size: 50px;
+    margin: 15px 0;
+    animation: heartbeat 1.6s infinite;
+}
+
+@keyframes heartbeat{
+    0%,100%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.15);
+    }
+    50%{
+        transform: scale(1.3);
+    }
+    75%{
+        transform: scale(1.15);
+    }
+}
   .names{font-family:'Cormorant Garamond', serif; font-weight:500; font-size:clamp(48px,11vw,80px); color:var(--navy); line-height:1.0;}
   .amp-script{font-family:'Alex Brush', cursive; font-size:clamp(30px,6vw,44px); color:var(--blue); display:block; margin:4px 0;}
   .nos-casamos{font-size:13px; letter-spacing:.32em; text-transform:uppercase; color:var(--olive); margin:18px 0 14px;}
