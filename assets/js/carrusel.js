@@ -15,12 +15,12 @@ function initCarrusel(totalEspacios = 6) {
   </svg>`;
 
   const fotos = [
-    'assets/img/foto1.jpg',
-    'assets/img/foto2.jpg',
-    'assets/img/foto3.jpg',
-    'assets/img/foto4.jpg',
-    'assets/img/foto5.jpg',
-    'assets/img/foto6.jpg'
+    'assets/img/foto1.jpeg',
+    'assets/img/foto2.jpeg',
+    'assets/img/foto3.jpeg',
+    'assets/img/foto4.jpeg',
+    'assets/img/foto5.jpeg',
+    'assets/img/foto6.jpeg'
   ];
 
   for (let i = 0; i < totalEspacios; i++) {
