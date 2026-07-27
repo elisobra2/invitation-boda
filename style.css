@@ -137,9 +137,10 @@
     position:relative; background:var(--white); border:1px solid var(--line);
     box-shadow:0 18px 50px rgba(30,58,92,0.10); padding:70px 26px 60px; overflow:hidden;
   }
-  .corner{position:absolute; width:220px; height:220px; pointer-events:none; object-fit:contain;}
-  .corner.tl{top:-10px; left:-10px;} .corner.br{bottom:-10px; right:-10px;}
-   @media (min-width:600px){.corner{width:260px; height:260px;}}
+  .corner{position:absolute; height:190px; width:auto; pointer-events:none;}
+  .corner.tl{top:0; left:0;}
+  .corner.br{bottom:0; right:0;}
+  @media (min-width:600px){.corner{height:230px;}}
   .inner-content{position:relative; z-index:2; text-align:center;}
   .blessing{font-size:12.5px; letter-spacing:.18em; text-transform:uppercase; line-height:1.8; margin-bottom:18px;}
   
