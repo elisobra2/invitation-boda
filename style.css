@@ -267,3 +267,21 @@
 
   ::selection{background:var(--blue); color:#fff;}
 
+/* ===== Flores y marcas doradas del sobre ===== */
+.env-corner-mark{position:absolute; width:26px; height:26px; z-index:6; pointer-events:none;}
+.env-corner-mark.tl{top:8px; left:8px;}
+.env-corner-mark.tr{top:8px; right:8px; transform:scaleX(-1);}
+.env-corner-mark.bl{bottom:8px; left:8px; transform:scaleY(-1);}
+.env-corner-mark.br2{bottom:8px; right:8px; transform:scale(-1,-1);}
+
+.env-flap-art-wrap{
+  position:absolute; top:-10%; left:50%; transform:translateX(-50%);
+  width:100%; display:flex; justify-content:center; z-index:4; pointer-events:none;
+}
+.env-flap-art-wrap img{height:80px; width:auto;}
+.env-flap-art-wrap img.mirror{transform:scaleX(-1); margin-left:-22px;}
+.env-flap-art-wrap img:not(.mirror){margin-right:-22px;}
+@media (max-width:480px){
+  .env-flap-art-wrap img{height:56px;}
+}
+
