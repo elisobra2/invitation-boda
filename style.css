@@ -275,7 +275,7 @@
 .env-corner-mark.br2{bottom:8px; right:8px; transform:scale(-1,-1);}
 
 .env-flap-art-wrap{
-  position:absolute; top:-10%; left:50%; transform:translateX(-50%);
+  position:absolute; top:8%; left:50%; transform:translateX(-50%);
   width:100%; display:flex; justify-content:center; z-index:4; pointer-events:none;
 }
 .env-flap-art-wrap img{height:80px; width:auto;}
