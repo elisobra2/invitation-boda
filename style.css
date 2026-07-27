@@ -279,8 +279,8 @@
   width:100%; display:flex; justify-content:center; z-index:4; pointer-events:none;
 }
 .env-flap-art-wrap img{height:80px; width:auto;}
-.env-flap-art-wrap img.mirror{transform:scaleX(-1); margin-left:-22px;}
-.env-flap-art-wrap img:not(.mirror){margin-right:-22px;}
+.env-flap-art-wrap img.mirror{transform:scaleX(-1); margin-left:-8px;}
+.env-flap-art-wrap img:not(.mirror){margin-right:-8px;}
 @media (max-width:480px){
   .env-flap-art-wrap img{height:56px;}
 }
