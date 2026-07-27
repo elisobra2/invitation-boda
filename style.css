@@ -246,6 +246,7 @@
   @media (max-width:560px){.gallery{grid-template-columns:repeat(2,1fr);}}
   .g-item{aspect-ratio:3/4; background:linear-gradient(160deg,#E7E4D6,#DDE0D2); border:1px solid var(--line); display:flex; align-items:center; justify-content:center; color:var(--sage);}
   .g-item svg{width:26px; height:26px;}
+.g-item img{ width:100%; height:100%; object-fit:cover;}
 
 
   /* ================= FOOTER ================= */
