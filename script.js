@@ -1,6 +1,6 @@
 /* =========================================================
    SCRIPT.JS — Orquestador principal de la invitación
-   Elí & Lizbeth · 03.10.2026
+   Elí & Lizbeth · 26.09.2026
    Requiere que los archivos de assets/js/ se carguen ANTES
    que este script (ver orden en index.html).
    ========================================================= */
@@ -8,7 +8,7 @@
 /* ============ INICIALIZAR MÓDULOS ============ */
 initEnvelope();
 initPetalos();
-initContador('2026-10-03T17:00:00-05:00');
+initContador('2026-09-26T17:00:00-05:00');
 initCarrusel(6);
 initRevealOnScroll();
 
@@ -22,7 +22,7 @@ btnTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smoo
 /* ============ BOTÓN: COMPARTIR POR WHATSAPP ============ */
 const btnWa = document.getElementById('btn-wa');
 btnWa.href = 'https://wa.me/?text=' + encodeURIComponent(
-  '¡Nos casamos! Elí & Lizbeth te invitan a celebrar con ellos el 03 de octubre, 2026. Mira todos los detalles aquí: ' + window.location.href
+  '¡Nos casamos! Elí & Lizbeth te invitan a celebrar con ellos el 26 de septiembre, 2026. Mira todos los detalles aquí: ' + window.location.href
 );
 btnWa.target = '_blank';
 btnWa.rel = 'noopener';
@@ -45,14 +45,14 @@ btnMusic.addEventListener('click', () => {
 document.getElementById('btn-gcal').href =
   'https://calendar.google.com/calendar/render?action=TEMPLATE'
   + '&text=' + encodeURIComponent('Boda de Elí & Lizbeth')
-  + '&dates=20261003T220000Z/20261004T040000Z'
+  + '&dates=20260926T220000Z/20260927T040000Z'
   + '&details=' + encodeURIComponent('Ceremonia Civil: Centro Cívico Municipal Comas, 5:00pm. Recepción: Jirón San Pedro 276, Comas, 7:00pm.')
   + '&location=' + encodeURIComponent('Centro Cívico Municipal, Comas, Lima');
 
 document.getElementById('btn-ics').addEventListener('click', () => {
   const ics = [
     'BEGIN:VCALENDAR', 'VERSION:2.0', 'BEGIN:VEVENT',
-    'DTSTART:20261003T220000Z', 'DTEND:20261004T040000Z',
+    'DTSTART:20260926T220000Z', 'DTEND:20260927T040000Z',
     'SUMMARY:Boda de Elí & Lizbeth',
     'DESCRIPTION:Ceremonia Civil en Centro Cívico Municipal Comas (5:00pm)\\, Recepción en Jirón San Pedro 276\\, Comas (7:00pm).',
     'LOCATION:Centro Cívico Municipal\\, Comas\\, Lima',
