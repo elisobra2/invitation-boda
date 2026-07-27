@@ -14,12 +14,22 @@ function initCarrusel(totalEspacios = 6) {
     <path d="M12 2c2 2 2 5 0 7-2-2-2-5 0-7zM12 22c2-2 2-5 0-7-2 2-2 5 0 7zM2 12c2-2 5-2 7 0-2 2-5 2-7 0zM22 12c-2-2-5-2-7 0 2 2 5 2 7 0z"/>
   </svg>`;
 
-  for (let i = 0; i < totalEspacios; i++) {
-    const div = document.createElement('div');
-    div.className = 'g-item';
-    div.innerHTML = flowerIcon;
-    gallery.appendChild(div);
-  }
+  const fotos = [
+  'assets/img/foto1.jpg',
+  'assets/img/foto2.jpg',
+  'assets/img/foto3.jpg',
+  'assets/img/foto4.jpg',
+  'assets/img/foto5.jpg',
+  'assets/img/foto6.jpg'
+];
+
+for (let i = 0; i < totalEspacios; i++) {
+  const div = document.createElement('div');
+  div.className = 'g-item';
+  div.innerHTML = fotos[i]
+    ? `<img src="${fotos[i]}" alt="Elí y Lizbeth" loading="lazy">`
+    : flowerIcon;
+  gallery.appendChild(div);
 }
 
 /* -----------------------------------------------------------
