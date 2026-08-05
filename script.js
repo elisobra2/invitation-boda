@@ -46,7 +46,7 @@ document.getElementById('btn-gcal').href =
   'https://calendar.google.com/calendar/render?action=TEMPLATE'
   + '&text=' + encodeURIComponent('Boda de Elí & Lizbeth')
   + '&dates=20260926T220000Z/20260927T040000Z'
-  + '&details=' + encodeURIComponent('Ceremonia Civil: Centro Cívico Municipal Comas, 5:00pm. Recepción: Jirón San Pedro 276, Comas, 7:00pm.')
+  + '&details=' + encodeURIComponent('Ceremonia Civil: Centro Cívico Municipal Comas, 5:00pm. Recepción: Av. San Martín 150, Carabayllo, 7:00pm.')
   + '&location=' + encodeURIComponent('Centro Cívico Municipal, Comas, Lima');
 
 document.getElementById('btn-ics').addEventListener('click', () => {
@@ -54,7 +54,7 @@ document.getElementById('btn-ics').addEventListener('click', () => {
     'BEGIN:VCALENDAR', 'VERSION:2.0', 'BEGIN:VEVENT',
     'DTSTART:20260926T220000Z', 'DTEND:20260927T040000Z',
     'SUMMARY:Boda de Elí & Lizbeth',
-    'DESCRIPTION:Ceremonia Civil en Centro Cívico Municipal Comas (5:00pm)\\, Recepción en Jirón San Pedro 276\\, Comas (7:00pm).',
+    'DESCRIPTION:Ceremonia Civil en Centro Cívico Municipal Comas (5:00pm)\\, Recepción en Av. San Martín 150\\, Carabayllo (7:00pm).',
     'LOCATION:Centro Cívico Municipal\\, Comas\\, Lima',
     'END:VEVENT', 'END:VCALENDAR'
   ].join('\r\n');
