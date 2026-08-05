@@ -55,7 +55,7 @@ document.getElementById('btn-ics').addEventListener('click', () => {
     'DTSTART:20260926T220000Z', 'DTEND:20260927T040000Z',
     'SUMMARY:Boda de Elí & Lizbeth',
     'DESCRIPTION:Ceremonia Civil en Centro Cívico Municipal Comas (5:00pm)\\, Recepción en Av San Martin 168\\, Santa Isabel\\, Carabayllo (7:00pm).',
-    'LOCATION:Centro Cívico Municipal\\, Comas\\, Lima',
+    'LOCATION:Centro Cívico Municipal\\, Comas\\, Lima.',
     'END:VEVENT', 'END:VCALENDAR'
   ].join('\r\n');
   const blob = new Blob([ics], { type: 'text/calendar' });
